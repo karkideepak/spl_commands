@@ -1,0 +1,2 @@
+index=ops_app_umbrella  smlwest.com
+| table user, src, identities, domain, action
