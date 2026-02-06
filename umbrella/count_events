@@ -1,2 +1,3 @@
 index=ops_app_umbrella  example.com
 | stats count BY user, src, identities, domain, action
+| sort - count
