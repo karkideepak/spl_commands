@@ -1,0 +1,4 @@
+| tstats count from datamodel=Network_Traffic 
+  where All_Traffic.dest_port=443 
+  by All_Traffic.src_ip All_Traffic.dest_ip
+| sort -count
