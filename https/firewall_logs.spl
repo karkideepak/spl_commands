@@ -1,0 +1,3 @@
+index=your_index (dest_port=443 OR app=https)
+| stats count by src_ip dest_ip action
+| sort -count
