@@ -5,7 +5,7 @@ FROM mytable
 ```
 example: source=mytable
 
-##### WHERE
+### WHERE
 ```
 SELECT *
 FROM mytable
