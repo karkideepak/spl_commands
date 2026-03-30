@@ -1,0 +1,18 @@
+SecurityEvent
+| where TimeGenerated > age(1d)
+
+SecurityEvent
+| where TimeGenerated > age(1h) and EventID == "4624"
+
+SecurityEvent
+| where TimeGenerated > age(1h)
+| where EventID == 4624
+| where AcountType == "user"
+
+SecurityEvent
+| where TimeGenerated > age(4h)
+| where EventID = 4624
+| where AccountyType == "user"
+
+SecurityEvent
+| where EventID in (4624, 4625)
