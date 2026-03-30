@@ -1,3 +1,5 @@
+# Data -> Condition -> Evidence
+# Filter & Prepare -> Pivot (analyze) -> Prepare
 SecurityEvent
 | where EventID="4626"
 | summarize county() by Account
