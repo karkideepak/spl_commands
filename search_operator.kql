@@ -1,0 +1,2 @@
+search "err"
+search in (SecurityEvent, SecurityAlert, A*) "err"
